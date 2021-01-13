@@ -1,0 +1,30 @@
+# Source: jx-pipelines-visualizer/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-01-08T17:27:49Z"
+  deletionTimestamp: null
+  name: 'jx-pipelines-visualizer-0.0.68'
+  namespace: jx
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: v.behar@free.fr
+        name: Vincent Behar
+      branch: master
+      committer:
+        email: v.behar@free.fr
+        name: Vincent Behar
+      message: |
+        feat: display the number of pipelines for each status
+
+        instead of the latest pipelines
+      sha: 0d9dcc93514e2f987dbbaeb89750bb36e06cde7d
+  gitHttpUrl: https://github.com/jenkins-x/jx-pipelines-visualizer
+  gitOwner: jenkins-x
+  gitRepository: jx-pipelines-visualizer
+  name: 'jx-pipelines-visualizer'
+  version: 0.0.68
+status: {}
