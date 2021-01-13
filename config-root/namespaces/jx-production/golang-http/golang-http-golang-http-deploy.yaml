@@ -7,7 +7,7 @@ metadata:
     draft: draft-app
     chart: "golang-http-0.0.4"
     gitops.jenkins-x.io/pipeline: 'namespaces'
-  namespace: jx-staging
+  namespace: jx-production
   annotations:
     wave.pusher.com/update-on-config-change: 'true'
 spec:

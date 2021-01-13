@@ -5,7 +5,7 @@ metadata:
   creationTimestamp: "2021-01-13T13:03:04Z"
   deletionTimestamp: null
   name: 'golang-http-0.0.4'
-  namespace: jx-staging
+  namespace: jx-production
   labels:
     gitops.jenkins-x.io/pipeline: 'namespaces'
 spec:
