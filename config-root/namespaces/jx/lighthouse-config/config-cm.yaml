@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        gilShin/golang-http: true
         gilShin/jx3-demo2: true
     plank: {}
     pod_namespace: jx
@@ -19,6 +20,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        gilShin/golang-http: merge
         gilShin/jx3-demo2: merge
       queries:
       - labels:
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - gilShin/jx3-demo2
+        - gilShin/golang-http
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - gilShin/jx3-demo2
+        - gilShin/golang-http
       target_url: http://dashboard-jx.192.168.99.100.nip.io
 kind: ConfigMap
 metadata:
