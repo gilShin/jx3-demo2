@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - gilShin/cars-rest-api
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - gilShin/golang-http
       require_self_approval: true
     cat: {}
@@ -24,6 +28,22 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      gilShin/cars-rest-api:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       gilShin/golang-http:
       - approve
       - assign
@@ -68,6 +88,9 @@ data:
     triggers:
     - repos:
       - gilShin/jx3-demo2
+      trusted_org: todo
+    - repos:
+      - gilShin/cars-rest-api
       trusted_org: todo
     - repos:
       - gilShin/golang-http
