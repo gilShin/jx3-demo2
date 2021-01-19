@@ -16,5 +16,7 @@ releases:
 - chart: dev/rails-shopping-cart
   version: 0.0.4
   name: rails-shopping-cart
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
