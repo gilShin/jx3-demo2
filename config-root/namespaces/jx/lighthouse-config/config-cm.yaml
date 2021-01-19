@@ -10,6 +10,7 @@ data:
         gilShin/cars-rest-api: true
         gilShin/golang-http: true
         gilShin/jx3-demo2: true
+        gilShin/rails-shopping-cart: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -24,6 +25,7 @@ data:
         gilShin/cars-rest-api: merge
         gilShin/golang-http: merge
         gilShin/jx3-demo2: merge
+        gilShin/rails-shopping-cart: merge
       queries:
       - labels:
         - approved
@@ -37,6 +39,7 @@ data:
         - gilShin/jx3-demo2
         - gilShin/cars-rest-api
         - gilShin/golang-http
+        - gilShin/rails-shopping-cart
       - labels:
         - updatebot
         missingLabels:
@@ -49,6 +52,7 @@ data:
         - gilShin/jx3-demo2
         - gilShin/cars-rest-api
         - gilShin/golang-http
+        - gilShin/rails-shopping-cart
       target_url: http://dashboard-jx.192.168.99.100.nip.io
 kind: ConfigMap
 metadata:
