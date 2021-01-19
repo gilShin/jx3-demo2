@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        gilShin/cars-rest-api: true
         gilShin/golang-http: true
         gilShin/jx3-demo2: true
     plank: {}
@@ -20,6 +21,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        gilShin/cars-rest-api: merge
         gilShin/golang-http: merge
         gilShin/jx3-demo2: merge
       queries:
@@ -33,6 +35,7 @@ data:
         - needs-rebase
         repos:
         - gilShin/jx3-demo2
+        - gilShin/cars-rest-api
         - gilShin/golang-http
       - labels:
         - updatebot
@@ -44,6 +47,7 @@ data:
         - needs-rebase
         repos:
         - gilShin/jx3-demo2
+        - gilShin/cars-rest-api
         - gilShin/golang-http
       target_url: http://dashboard-jx.192.168.99.100.nip.io
 kind: ConfigMap
