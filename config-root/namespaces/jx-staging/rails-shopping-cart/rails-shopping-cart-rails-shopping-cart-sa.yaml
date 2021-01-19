@@ -1,0 +1,8 @@
+# Source: rails-shopping-cart/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: rails-shopping-cart-rails-shopping-cart
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
