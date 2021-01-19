@@ -10,4 +10,5 @@ spec:
     repositories:
     - name: cars-rest-api
     - name: golang-http
+    - name: rails-shopping-cart
     scheduler: in-repo
