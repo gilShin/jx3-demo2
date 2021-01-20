@@ -18,5 +18,10 @@ releases:
   name: rails-shopping-cart
   values:
   - jx-values.yaml
+- chart: dev/react-quickstart
+  version: 0.1.1
+  name: react-quickstart
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
