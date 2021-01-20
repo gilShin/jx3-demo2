@@ -16,5 +16,7 @@ releases:
 - chart: dev/react-quickstart
   version: 0.1.2
   name: react-quickstart
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
