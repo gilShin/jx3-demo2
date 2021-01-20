@@ -11,4 +11,5 @@ spec:
     - name: cars-rest-api
     - name: golang-http
     - name: rails-shopping-cart
+    - name: spring-boot-maven-jenkinsfile
     scheduler: in-repo
