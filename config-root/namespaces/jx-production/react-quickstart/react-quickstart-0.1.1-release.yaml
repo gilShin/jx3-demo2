@@ -1,0 +1,69 @@
+# Source: react-quickstart/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-01-20T10:02:03Z"
+  deletionTimestamp: null
+  name: 'react-quickstart-0.1.1'
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.1.1
+      sha: 3ff231dd4200df2bfb7b02f1f957eec9b5f5c371
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: bd6b8d2282ce8c7975d7ea0b6008c6f80c979e43
+    - author:
+        email: gil@anodot.com
+        name: Gil Shinar
+      branch: master
+      committer:
+        email: gil@anodot.com
+        name: Gil Shinar
+      message: |
+        chore: Jenkins X build pack
+      sha: 535a4ca2e2858fecb082e07c4cb02852047089bc
+    - author:
+        email: mitja.kramberger@gmail.com
+        name: Mitja Kramberger
+      branch: master
+      committer:
+        email: mitja.kramberger@gmail.com
+        name: Mitja Kramberger
+      message: |
+        Updating default http port to 8080
+      sha: f1e2955919f3719945e783c9cd25b9463757bf35
+    - author:
+        email: mitja.kramberger@gmail.com
+        name: Mitja Kramberger
+      branch: master
+      committer:
+        email: mitja.kramberger@gmail.com
+        name: Mitja Kramberger
+      message: |
+        Updating Readme formatting
+      sha: b157bb0e531d5320ca814d56ab5e41b12eb7c034
+  gitHttpUrl: https://github.com/gilShin/react-quickstart
+  gitOwner: gilShin
+  gitRepository: react-quickstart
+  name: 'react-quickstart'
+  releaseNotesURL: https://github.com/gilShin/react-quickstart/releases/tag/v0.1.1
+  version: v0.1.1
+status: {}
