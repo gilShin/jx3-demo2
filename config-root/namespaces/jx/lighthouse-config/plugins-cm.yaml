@@ -16,6 +16,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - gilShin/node-http
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - gilShin/rails-shopping-cart
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -74,6 +78,22 @@ data:
       - pony
       gilShin/jx3-demo2:
       - config-updater
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      gilShin/node-http:
       - approve
       - assign
       - blunderbuss
@@ -154,6 +174,9 @@ data:
       trusted_org: todo
     - repos:
       - gilShin/golang-http
+      trusted_org: todo
+    - repos:
+      - gilShin/node-http
       trusted_org: todo
     - repos:
       - gilShin/rails-shopping-cart

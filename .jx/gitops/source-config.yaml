@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: cars-rest-api
     - name: golang-http
+    - name: node-http
     - name: rails-shopping-cart
     - name: react-quickstart
     - name: spring-boot-maven-jenkinsfile
