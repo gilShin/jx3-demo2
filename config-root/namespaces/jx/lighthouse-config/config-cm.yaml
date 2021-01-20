@@ -10,6 +10,7 @@ data:
         gilShin/cars-rest-api: true
         gilShin/golang-http: true
         gilShin/jx3-demo2: true
+        gilShin/node-http: true
         gilShin/rails-shopping-cart: true
         gilShin/react-quickstart: true
         gilShin/spring-boot-maven-jenkinsfile: true
@@ -27,6 +28,7 @@ data:
         gilShin/cars-rest-api: merge
         gilShin/golang-http: merge
         gilShin/jx3-demo2: merge
+        gilShin/node-http: merge
         gilShin/rails-shopping-cart: merge
         gilShin/react-quickstart: merge
         gilShin/spring-boot-maven-jenkinsfile: merge
@@ -43,6 +45,7 @@ data:
         - gilShin/jx3-demo2
         - gilShin/cars-rest-api
         - gilShin/golang-http
+        - gilShin/node-http
         - gilShin/rails-shopping-cart
         - gilShin/react-quickstart
         - gilShin/spring-boot-maven-jenkinsfile
@@ -58,6 +61,7 @@ data:
         - gilShin/jx3-demo2
         - gilShin/cars-rest-api
         - gilShin/golang-http
+        - gilShin/node-http
         - gilShin/rails-shopping-cart
         - gilShin/react-quickstart
         - gilShin/spring-boot-maven-jenkinsfile
