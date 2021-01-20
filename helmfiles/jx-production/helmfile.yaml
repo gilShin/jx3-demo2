@@ -13,5 +13,8 @@ releases:
   name: golang-http
   values:
   - jx-values.yaml
+- chart: dev/react-quickstart
+  version: 0.1.1
+  name: react-quickstart
 templates: {}
 renderedvalues: {}
