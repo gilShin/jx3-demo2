@@ -20,6 +20,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - gilShin/react-quickstart
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - gilShin/spring-boot-maven-jenkinsfile
       require_self_approval: true
     cat: {}
@@ -101,6 +105,22 @@ data:
       - cat
       - dog
       - pony
+      gilShin/react-quickstart:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       gilShin/spring-boot-maven-jenkinsfile:
       - approve
       - assign
@@ -137,6 +157,9 @@ data:
       trusted_org: todo
     - repos:
       - gilShin/rails-shopping-cart
+      trusted_org: todo
+    - repos:
+      - gilShin/react-quickstart
       trusted_org: todo
     - repos:
       - gilShin/spring-boot-maven-jenkinsfile

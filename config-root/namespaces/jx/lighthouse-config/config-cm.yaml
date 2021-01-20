@@ -11,6 +11,7 @@ data:
         gilShin/golang-http: true
         gilShin/jx3-demo2: true
         gilShin/rails-shopping-cart: true
+        gilShin/react-quickstart: true
         gilShin/spring-boot-maven-jenkinsfile: true
     plank: {}
     pod_namespace: jx
@@ -27,6 +28,7 @@ data:
         gilShin/golang-http: merge
         gilShin/jx3-demo2: merge
         gilShin/rails-shopping-cart: merge
+        gilShin/react-quickstart: merge
         gilShin/spring-boot-maven-jenkinsfile: merge
       queries:
       - labels:
@@ -42,6 +44,7 @@ data:
         - gilShin/cars-rest-api
         - gilShin/golang-http
         - gilShin/rails-shopping-cart
+        - gilShin/react-quickstart
         - gilShin/spring-boot-maven-jenkinsfile
       - labels:
         - updatebot
@@ -56,6 +59,7 @@ data:
         - gilShin/cars-rest-api
         - gilShin/golang-http
         - gilShin/rails-shopping-cart
+        - gilShin/react-quickstart
         - gilShin/spring-boot-maven-jenkinsfile
       target_url: http://dashboard-jx.192.168.99.100.nip.io
 kind: ConfigMap
