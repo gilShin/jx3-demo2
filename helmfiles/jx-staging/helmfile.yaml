@@ -23,5 +23,8 @@ releases:
   name: react-quickstart
   values:
   - jx-values.yaml
+- chart: dev/node-http
+  version: 1.0.1
+  name: node-http
 templates: {}
 renderedvalues: {}
