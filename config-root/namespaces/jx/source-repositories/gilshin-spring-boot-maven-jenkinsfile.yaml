@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: gilShin
+    provider: github
+    repository: spring-boot-maven-jenkinsfile
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: gilshin-spring-boot-maven-jenkinsfile
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/gilShin/spring-boot-maven-jenkinsfile.git
+  org: gilShin
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: spring-boot-maven-jenkinsfile
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/gilShin/spring-boot-maven-jenkinsfile

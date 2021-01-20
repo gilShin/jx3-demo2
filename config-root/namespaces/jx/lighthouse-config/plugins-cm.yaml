@@ -18,6 +18,10 @@ data:
       repos:
       - gilShin/rails-shopping-cart
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - gilShin/spring-boot-maven-jenkinsfile
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -97,6 +101,22 @@ data:
       - cat
       - dog
       - pony
+      gilShin/spring-boot-maven-jenkinsfile:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
     requiresig: {}
     sigmention: {}
     size:
@@ -117,6 +137,9 @@ data:
       trusted_org: todo
     - repos:
       - gilShin/rails-shopping-cart
+      trusted_org: todo
+    - repos:
+      - gilShin/spring-boot-maven-jenkinsfile
       trusted_org: todo
     welcome:
     - message_template: Welcome
