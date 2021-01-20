@@ -19,7 +19,7 @@ releases:
   values:
   - jx-values.yaml
 - chart: dev/react-quickstart
-  version: 0.1.1
+  version: 0.1.2
   name: react-quickstart
   values:
   - jx-values.yaml

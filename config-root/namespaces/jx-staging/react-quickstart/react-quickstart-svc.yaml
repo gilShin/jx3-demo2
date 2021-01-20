@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: react-quickstart
   labels:
-    chart: "react-quickstart-0.1.1"
+    chart: "react-quickstart-0.1.2"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     fabric8.io/expose: "true"
